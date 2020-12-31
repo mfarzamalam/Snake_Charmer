@@ -1,0 +1,1 @@
+print("Good speed. Good engine. Good light")
