@@ -1,0 +1,3 @@
+first = "Hi"
+
+print(first)
