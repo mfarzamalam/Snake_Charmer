@@ -21,3 +21,9 @@ def sandwich(*items):
 
 sandwich('chicken','beef','narcotics')
 sandwich('drugs','hasheesh','antibiotics')
+
+
+def staff_in_a_restaurant(
+    first_staff,second_staff,third_staff,
+    fourth_staff,fifth_staff,sixth_staff,
+):
