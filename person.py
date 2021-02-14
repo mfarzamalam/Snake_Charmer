@@ -66,8 +66,9 @@ while True:
         break
 
     just_made_album = make_album(artist,album,tracks)
-    print("The artist is "+just_made_album['artist_name'].title() +" and the album which is releasing is "
-    +just_made_album['album_name'].title() +" and it has "+ just_made_album['tracks'] +" tracks")
+    print("The artist is "+just_made_album['artist_name'].title() +
+    " and the album which is releasing is "+just_made_album['album_name'].title() +
+    " and it has "+ just_made_album['tracks'] +" tracks")
 
 
 just_made_album = make_album('arjit','dont get in my way','4')
