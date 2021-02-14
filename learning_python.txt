@@ -1,0 +1,10 @@
+So far in php i've learned
+- string
+- tuple
+- dictionaries
+- array
+- list
+- function
+- loops
+- oop
+- classes
