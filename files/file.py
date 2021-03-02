@@ -1,0 +1,15 @@
+f = open('student.txt', mode='w')
+f.write("First line\n")
+f.write("Second line\n")
+f.write("Third line")
+f.close()
+
+f = open('student.txt',mode='r')
+data = f.read()
+print(data)
+f.close()
+
+f = open('student.txt',mode='rb')
+data = f.read()
+print(data)
+f.close()
