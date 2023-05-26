@@ -12,19 +12,19 @@ while True:
             fries_order = price
 
             ask_mayo = input("\nPress Y if you want me to add mayoneese or pess enter to skip\n:")
-            if ask_mayo == 'y' or ask_mayo == 'Y':
+            if ask_mayo.lower() == 'y':
                 fries.append('mayoneese') 
 
             ask_ketchup = input("\nPress Y if you want me to add ketchup or pess enter to skip\n:")
-            if ask_ketchup == 'y' or ask_ketchup == 'Y':
+            if ask_ketchup.lower() == 'y':
                 fries.append('ketchup')
 
             ask_sauce = input("\nPress Y if you want me to add sauce or pess enter to skip\n:")
-            if ask_sauce == 'y' or ask_sauce == 'Y':
+            if ask_sauce.lower() == 'y':
                 fries.append('sauce')
 
             ask_spices = input("\nPress Y if you want me to add spices or pess enter to skip\n:")
-            if ask_spices == 'y' or ask_spices == 'Y':
+            if ask_spices.lower() == 'y':
                 fries.append('spices')
 
             print("\nYou've order " +str(fries_order) + "rs fries with ")
